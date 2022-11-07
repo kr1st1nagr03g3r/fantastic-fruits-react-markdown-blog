@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,17 +7,38 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Mono', monospace;
+  background-color: #282a36;
 }
 
 p {
   margin: 15px 0;
   line-height: 1.8;
+  color: #f8f8f2;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #ff79c6;
+}
+
+title {
+  color: #ff79c6;
+}
+
+h1 {
+  margin: 15px 0px;
+}
+
+h2 {
+  color: #ff79c6;
+}
+
+h1,
+h3,
+h4,
+h5 {
+  color: #8be9fd;
 }
 
 img {
@@ -26,18 +47,22 @@ img {
 }
 
 header {
-  background: steelblue;
-  color: #fff;
+  background: inherit;
+  color: #f8f8f2;
   padding: 5px;
-  margin-bottom: 40px;
+  border-bottom: 1px solid #44475a;
 }
 
 header a {
-  color: #fff;
+  color: #f8f8f2;
+}
+
+.footer {
+  border-top: 1px solid #44475a;
 }
 
 .container {
-  max-width: 768px;
+  max-width: 1280px;
   margin: auto;
   overflow: auto;
   padding: 0 10px;
@@ -45,8 +70,8 @@ header a {
 
 .btn {
   display: inline-block;
-  background: steelblue;
-  color: #fff;
+  background: #bd93f9;
+  color: #f8f8f2;
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
@@ -65,14 +90,14 @@ header a {
 }
 
 .btn-back {
-  background: #f4f4f4;
+  background: #ffb86c;
   color: #000;
   margin-bottom: 20px;
 }
 
 .posts {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 30px;
 }
@@ -80,11 +105,15 @@ header a {
 .card {
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #f8f8f2;
 }
 
 .card-page {
   padding: 15px 30px;
+}
+.card-image {
+  height: 350px;
+  max-height: 350px;
 }
 
 .post-title {
@@ -92,9 +121,10 @@ header a {
 }
 
 .post-date {
-  background: #f4f4f4;
+  background: #282a36;
   margin-bottom: 20px;
-  padding: 3px 10px;
+  padding: 10px 0px;
+  color: #6272a4;
 }
 
 .post-body ul,
@@ -116,4 +146,8 @@ ol {
   .posts {
     grid-template-columns: 1fr;
   }
+}
+
+.spacer {
+  height: 60px;
 }

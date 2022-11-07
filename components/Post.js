@@ -7,18 +7,19 @@ export default function Post({ post }) {
   return (
     <>
       <div className="card">
-        {/* Image */}
-        <Image
-          src={post.frontmatter.cover_image}
-          alt=""
-          width={700}
-          height={475}
-          sizes="100vw"
-          style={{
-            width: '100%',
-            height: 'auto',
-          }}
-        />
+        <div className="card-image">
+          {/* Image */}
+          <Image
+            src={post.frontmatter.cover_image}
+            alt=""
+            width={500}
+            height={350}
+            sizes="100vw"
+            style={{
+              objectFit: 'fill',
+            }}
+          />
+        </div>
         {/* Optional Date: */}
         <div className="post-date">Posted on: {post.frontmatter.date}</div>
         {/* Title */}

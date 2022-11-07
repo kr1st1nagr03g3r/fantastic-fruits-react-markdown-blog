@@ -5,7 +5,6 @@ excerpt: "Do not buy that car..."
 cover_image: "/images/posts/lemons.png"
 ---
 
-![Lemon]("/../../public/images/posts/lemons.png")
 
 ## Lemon
 The lemon (Citrus limon) is a species of small evergreen trees in the flowering plant family Rutaceae, native to Asia, primarily Northeast India (Assam), Northern Myanmar or China.

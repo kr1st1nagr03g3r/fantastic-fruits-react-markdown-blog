@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <div className="container">
         <Link href="/" passHref>
-          <h2>Fantastic Fruits (Markdown Blog Template)</h2>
+          <h1>Fantastic Fruits (Markdown Blog Template)</h1>
         </Link>
       </div>
     </header>

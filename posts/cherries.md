@@ -5,7 +5,6 @@ excerpt: "Wawaaaweeewaaa"
 cover_image: "/images/posts/cherries.png"
 ---
 
-![Cherries]("/../../public/images/posts/cherries.png")
 
 ## Cherries
 A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe (stone fruit).

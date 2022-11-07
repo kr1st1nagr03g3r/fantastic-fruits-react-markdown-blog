@@ -5,7 +5,6 @@ excerpt: "Blueberries are sus"
 cover_image: "/images/posts/blueberries.png"
 ---
 
-![Blueberries]("/../../public/images/posts/blueberries.png")
 
 ## Blueberries
 Blueberries are a widely distributed and widespread group of perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.

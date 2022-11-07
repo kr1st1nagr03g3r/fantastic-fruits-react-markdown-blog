@@ -23,8 +23,7 @@ export default function PostPage({
           height={475}
           sizes="100vw"
           style={{
-            width: '100%',
-            height: 'auto',
+            objectFit: 'cover',
           }}
         />
         <div className="post-body">

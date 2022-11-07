@@ -8,17 +8,19 @@ import { sortByDate } from '../utils'
 export default function Home({ posts }) {
   // console.log(posts)
   return (
-    <div>
-      <Head>
-        <title>Fantastic Fruits Markdown Blog Template</title>
-      </Head>
+    <>
+      <div>
+        <Head>
+          <title>Fantastic Fruits Markdown Blog Template</title>
+        </Head>
 
-      <div className="posts">
-        {posts.map((post, index) => (
-          <Post key={index} post={post} />
-        ))}
+        <div className="posts">
+          {posts.map((post, index) => (
+            <Post key={index} post={post} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
