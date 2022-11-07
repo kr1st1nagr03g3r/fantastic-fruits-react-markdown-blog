@@ -61,6 +61,26 @@ header a {
   border-top: 1px solid #44475a;
 }
 
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-icons a {
+  padding: 0px 10px;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.container.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
   max-width: 1280px;
   margin: auto;
@@ -142,12 +162,21 @@ ol {
   line-height: 2.3;
 }
 
+.spacer {
+  height: 60px;
+}
+
 @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
   }
-}
 
-.spacer {
-  height: 60px;
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    padding: 15px 0px;
+  }
 }
